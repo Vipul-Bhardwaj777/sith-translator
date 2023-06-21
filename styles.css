@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+
+body {
+    font-family: "bangers", san-serif;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+    
+}
+
+nav {
+    text-align: center;
+    background: linear-gradient(#ff0000, #393838);
+    padding: 1em;
+    border-bottom-right-radius:10px;
+}
+
+
+main {
+    flex-grow: 1;
+    /* max-width: 600px;
+    margin: auto; */
+    text-align:center;
+    background-image: url(media/dn.png);
+    background-repeat: no-repeat;
+   
+    
+}
+
+#txt-area {
+    font-family: inherit;
+    line-height:1.6;
+    height: 15vh;
+    width:30vw;
+    padding:.5em;
+    margin:1em auto;
+    border:2px solid black;
+    border-radius:10px;
+    cursor: pointer;
+    background-color:#eeee;
+    box-shadow: 0em 1em 1em -0.7em rgb(0, 0, 0.4);
+   
+
+}
+
+#txt-area:hover{
+    background-color:white;
+    
+}
+
+#btn-translate {
+    font-family: inherit;
+    display: block;
+    padding:.5em;
+    border-radius:10px;
+    background: linear-gradient( #ff0000,#393838);
+    margin:auto;
+    font-size: medium;
+    
+    
+}
+
+#btn-translate:hover{
+    transition:all 0.2s linear;
+    cursor: pointer;
+    color: white;
+}
+
+#output-div {
+    border: 2px solid black;
+    max-width: 600px;
+    line-height:1.6;
+    height: 15vh;
+    width:30vw;
+    padding:.5em;
+    margin:1em auto;
+    border-radius:10px;
+    cursor: pointer;
+    background-color:#eeee;
+    box-shadow: 0em 1em 1em -0.7em rgb(0, 0, 0.4);
+
+}
+
+#output-div:hover{
+    background-color:white;
+    transition:all 0.2s linear;
+}
+
+footer {
+    text-align: center;
+    background: linear-gradient( #393838,#ff0000);
+    border-top-left-radius:10px;
+    
+}
+
+footer p{
+    max-width: 600px;
+    margin: auto;
+    line-height:1.4;
+}
+
+footer h1{
+    margin:.4em auto;
+}
+
+a{
+    color:black;
+    font-size:smaller;
+   
+   
+}
+
+i{
+   margin: .5em;
+    transition:all 0.3s linear;
+    
+}
+
+i:hover{
+    transform:scale(1.2);
+}
